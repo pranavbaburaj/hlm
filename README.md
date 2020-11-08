@@ -3,15 +3,15 @@
 HLM is the official and standard package-manager like script for the [Hascal Programming Language](https://github.com/hascal/hascal).
 ## Getting Started
 first you need an installation directory name. default is 'modules'
-```
+```bash
 hlm set installation-directory installation_directory_name
 ```
 ### to Install a Library
-```
+```bash
 hlm install library_name second_library_name
 ```
 ### to Upgrade installed Libraries
-```
+```bash
 hlm upgrade library_name second_library_name
 # or upgrade all installed libraries
 hlm upgrade all
