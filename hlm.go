@@ -24,13 +24,13 @@ func main() {
 		os.Exit(0)
 	}
 	if os.Args[1] == "install" {
-		fmt.Println("Installing from https://raw.githubusercontent.com/hascal/hlm-packages/main/libs/" + os.Args[2] + ".has to hlib/" + os.Args[2] + ".has")
+		fmt.Println("Installing from https://raw.githubusercontent.com/hascal/hlm-libs/main/libs/" + os.Args[2] + ".has to hlib/" + os.Args[2] + ".has")
 		file, err := os.OpenFile("hlib/" + os.Args[2] + ".has", os.O_WRONLY | os.O_CREATE, 0755)
 		if err != nil {
 			panic(err)
 		}
 		defer file.Close()
-		resp, err := http.Get("https://raw.githubusercontent.com/hascal/hlm-packages/main/libs/" + os.Args[2] + ".has")
+		resp, err := http.Get("https://raw.githubusercontent.com/hascal/hlm-libs/main/libs/" + os.Args[2] + ".has")
 		if err != nil {
 			panic(err)
 		}
