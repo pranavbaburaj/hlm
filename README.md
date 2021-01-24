@@ -3,6 +3,9 @@
 HLM is the official and standard package-manager like script for the [Hascal Programming Language](https://github.com/hascal/hascal).
 **HLM written in Hascal**
 ## Getting Started
+Prequiste:
+- [Hascal Compiler](https://github.com/hascal/hascal) v1.2.4 or higher
+
 first you should be build hlm ,enter following command in your terminal :
 ```
 git clone https://github.com/hascal/hlm
