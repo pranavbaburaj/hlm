@@ -1,2 +1,2 @@
 cd hlm
-go build hlm.go
+hascal hlm.has
