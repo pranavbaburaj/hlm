@@ -51,3 +51,10 @@ Why do we suggest you use hlm?
 - it's running so fast
 - it's simple and fast to learn
 - it's smaller than 1mb!
+
+## License
+The HLM are licensed under the MIT license,
+Please read the [License](https://github.com/hascal/hascal/blob/main/LICENSE) for more details.
+
+## About
+Copyright © 2019-2021 **Hascal Development Team**, all rights reserved.
