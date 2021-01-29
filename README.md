@@ -1,7 +1,7 @@
 # HLM
 **HLM** stands for **"Hascal Library Manager"**.
 
-HLM is the official and standard library-manager like script for the [Hascal Programming Language](https://github.com/hascal/hascal).
+HLM is the official and standard library-manager for the [Hascal Programming Language](https://github.com/hascal/hascal).
 
 **HLM is written in Hascal**
 ## Getting Started
