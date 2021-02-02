@@ -6,7 +6,7 @@ HLM is the official and standard library-manager for the [Hascal Programming Lan
 **HLM is written in Hascal**
 ## Getting Started
 Prequiste:
-- [Hascal Compiler](https://github.com/hascal/hascal) v1.2.4 or higher
+- [Hascal Compiler](https://github.com/hascal/hascal) [v1.2.4-beta](https://github.com/hascal/hascal/releases/tag/v1.2.4) or higher
 
 first you should be build hlm ,enter following command in your terminal :
 ```
@@ -14,6 +14,13 @@ git clone https://github.com/hascal/hlm
 cd hlm
 build-hlm
 ```
+or :
+```
+git clone https://github.com/hascal/hlm
+cd hlm
+hascal hlm.has
+```
+
 ### Install a library with hlm
 ```bash
 hlm install <lib_name>
@@ -34,7 +41,7 @@ for example :
 hlm uninstall vector
 ```
 
-### Update a library with hlm
+### Update a library with hlm(WIP)
 ```
 hlm update <lib_name>
 ```
@@ -53,8 +60,8 @@ Why do we suggest you use hlm?
 - it's smaller than 1mb!
 
 ## License
-The HLM are licensed under the MIT license,
-Please read the [License](https://github.com/hascal/hascal/blob/main/LICENSE) for more details.
+The HLM are licensed under the **"MIT"** license,
+Read the [License](https://github.com/hascal/hascal/blob/main/LICENSE) for more details.
 
 ## About
-Copyright © 2019-2021 **Hascal Development Team**, all rights reserved.
+Copyright ©2019-2021, all rights reserved for **Hascal Development Team**.
