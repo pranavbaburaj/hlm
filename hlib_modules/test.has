@@ -1,0 +1,3 @@
+function tester(s string)
+  print("Hello Hascal Programmer,",s);
+end;
