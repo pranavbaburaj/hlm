@@ -8,10 +8,10 @@ class Installer():
 		self.data = f"{package}.has"
 		self.mod = os.path.join(os.getcwd(), "hlib_modules")
 
-		self.folder_exists()
+		self.exists_or_mkdir()
 		self.install()
 
-	def folder_exists(self):
+	def exists_or_mkdir(self):
 		if not os.path.exists(self.mod):
 			os.mkdir(self.mod)
 
